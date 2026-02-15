@@ -1,0 +1,22 @@
+title: Nick | Unshure
+description: >-
+  Personal site of Nick — builder of AI agents, SDK contributor,
+  and cloud enthusiast.
+url: "https://unshure.github.io"
+baseurl: ""
+
+theme: minima
+
+header_pages:
+  - about.md
+  - projects.md
+
+author:
+  name: Nick
+
+social_links:
+  github: Unshure
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
