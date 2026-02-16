@@ -1,4 +1,4 @@
-title: Nick | Unshure
+title: Home
 description: >-
   Personal site of Nick — builder of AI agents, SDK contributor,
   and cloud enthusiast.
@@ -7,8 +7,13 @@ baseurl: ""
 
 theme: minima
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
 header_pages:
-  - about.md
+  - index.md
   - projects.md
 
 author:

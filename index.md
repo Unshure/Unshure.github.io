@@ -1,31 +1,30 @@
 ---
 layout: default
-title: Home
+title: About
+permalink: /
 ---
 
 <section class="hero">
   <h1>Hey, I'm Nick</h1>
   <p class="tagline">Building intelligent agents, open-source SDKs, and cloud-native tools.</p>
-  <div class="cta-links">
-    <a href="/projects" class="btn">View Projects</a>
-    <a href="/about" class="btn btn-outline">About Me</a>
-  </div>
 </section>
 
-<section class="highlights">
-  <h2>What I Work On</h2>
-  <div class="highlight-grid">
-    <div class="highlight-card">
-      <h3>AI Agents</h3>
-      <p>Designing and building autonomous agents powered by large language models using frameworks like Strands Agents SDK.</p>
-    </div>
-    <div class="highlight-card">
-      <h3>Open-Source SDKs</h3>
-      <p>Contributing to developer tools and SDKs that make it easier to build, test, and deploy AI-powered applications.</p>
-    </div>
-    <div class="highlight-card">
-      <h3>Cloud & Infrastructure</h3>
-      <p>Working with cloud services and infrastructure to ship reliable, scalable systems.</p>
-    </div>
-  </div>
+<section class="page-content" markdown="1">
+## Areas of Focus
+
+- **AI Agents & Orchestration** — Building autonomous and semi-autonomous agents using frameworks like Strands Agents SDK. Designing tool-use patterns, multi-step reasoning flows, and agent architectures.
+- **SDKs & Developer Experience** — Contributing to open-source SDKs that give developers clean, composable interfaces for complex systems.
+- **Cloud & Infrastructure** — Deploying and managing services on AWS and other cloud platforms. Experience with serverless, containers, and CI/CD pipelines.
+
+## Skills & Technologies
+
+- **Languages**: Python, TypeScript, Java
+- **AI/ML**: LLM integration, agent frameworks, prompt engineering, RAG
+- **Cloud**: AWS (Lambda, ECS, Bedrock, CDK), infrastructure as code
+- **Tools**: Git, GitHub Actions, Docker, Terraform
+
+## Get in Touch
+
+Find me on [GitHub](https://github.com/Unshure) or open an issue on any of my repos — always happy to chat.
+
 </section>
