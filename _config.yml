@@ -11,10 +11,14 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+  presentations:
+    output: true
+    permalink: /presentations/:name/
 
 header_pages:
   - index.md
   - projects.md
+  - presentations.md
 
 author:
   name: Nick

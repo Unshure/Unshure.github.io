@@ -12,6 +12,7 @@
 <body>
   <header class="site-header">
     <nav class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="site-brand">Nicholas Clegg</a>
       <ul class="nav-links">
         {% for path in site.header_pages %}
           {% assign page_obj = site.pages | where: "path", path | first %}
@@ -20,6 +21,7 @@
           {% endif %}
         {% endfor %}
         <li><a href="https://github.com/Unshure" target="_blank" rel="noopener noreferrer" class="external-link">GitHub <span class="external-icon">&#8599;</span></a></li>
+        <li><a href="https://www.linkedin.com/in/nicholasclegg/" target="_blank" rel="noopener noreferrer" class="external-link">LinkedIn <span class="external-icon">&#8599;</span></a></li>
       </ul>
     </nav>
   </header>

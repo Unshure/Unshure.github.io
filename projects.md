@@ -10,7 +10,7 @@ A selection of projects I've built or contributed to.
 {% for project in site.projects %}
   <a href="{{ project.url | relative_url }}" class="project-card">
     <h3>{{ project.title }}</h3>
-    <p>{{ project.content | strip_html | truncatewords: 40 }}</p>
+    <p>{{ project.description }}</p>
     {% for tag in project.tags %}
       <span class="tag">{{ tag }}</span>
     {% endfor %}

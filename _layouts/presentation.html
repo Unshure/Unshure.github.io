@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="page-content presentation-detail">
+  <a href="{{ '/presentations/' | relative_url }}" class="back-link">&larr; All Presentations</a>
+  <h1 class="page-title">{{ page.title }}</h1>
+  <div class="presentation-date">{{ page.date | date: "%B %Y" }}</div>
+
+  {% if page.video_url %}
+  <div class="video-embed">
+    <iframe src="{{ page.video_url }}" title="{{ page.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  {% endif %}
+
+  <div class="presentation-body">
+    {{ content }}
+  </div>
+
+  {% if page.links.size > 0 %}
+  <ul class="presentation-links">
+    {% for link in page.links %}
+      <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }} <span class="external-icon">&#8599;</span></a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</article>

@@ -5,15 +5,22 @@ Personal GitHub Pages site built with [Jekyll](https://jekyllrb.com/).
 ## Structure
 
 ```
-├── _config.yml          # Site configuration (title, description, nav, plugins)
+├── _config.yml          # Site configuration (title, description, nav, collections, plugins)
 ├── _layouts/
 │   ├── default.html     # Base layout (header, nav, footer)
-│   └── page.html        # Layout for static pages (wraps default)
-├── assets/css/
-│   └── style.css        # All custom styles (dark theme, grid, cards)
-├── index.md             # Homepage
-├── about.md             # About / skills / background
-├── projects.md          # Project portfolio
+│   ├── page.html        # Layout for static pages (wraps default)
+│   ├── project.html     # Layout for individual project pages
+│   └── presentation.html # Layout for individual presentation pages
+├── _projects/           # Project collection (one .md per project)
+├── _presentations/      # Presentation collection (one .md per presentation)
+├── assets/
+│   ├── css/
+│   │   └── style-dusk.css # All custom styles (dark theme, grid, cards)
+│   ├── images/          # Site images
+│   └── presentations/   # Presentation slide PDFs
+├── index.md             # Homepage / About
+├── projects.md          # Project listing
+├── presentations.md     # Presentation listing
 ├── Gemfile              # Ruby/Jekyll dependencies
 └── .gitignore
 ```
@@ -34,10 +41,11 @@ The site will be available at `http://localhost:4000`.
 
 ## How It Works
 
-- **Jekyll** reads Markdown files (`index.md`, `about.md`, `projects.md`) and renders them into static HTML using the layouts in `_layouts/`.
+- **Jekyll** reads Markdown files (`index.md`, `projects.md`, `presentations.md`) and renders them into static HTML using the layouts in `_layouts/`.
+- **Collections** (`_projects/`, `_presentations/`) each generate individual pages with structured front matter.
 - **Front matter** (the `---` block at the top of each `.md` file) controls which layout is used, the page title, and the permalink.
-- **`_config.yml`** sets global options: site title, description, which pages appear in the nav (`header_pages`), and which plugins to load.
-- **`assets/css/style.css`** provides all styling — no theme CSS is inherited. The site uses a custom dark color scheme.
+- **`_config.yml`** sets global options: site title, description, collections, which pages appear in the nav (`header_pages`), and which plugins to load.
+- **`assets/css/style-dusk.css`** provides all styling — no theme CSS is inherited. The site uses a custom dark color scheme with sky blue accents.
 
 ## Adding a New Page
 

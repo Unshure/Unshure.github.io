@@ -6,25 +6,28 @@ permalink: /
 
 <section class="hero">
   <h1>Hey, I'm Nick</h1>
-  <p class="tagline">Building intelligent agents, open-source SDKs, and cloud-native tools.</p>
+  <p class="tagline tagline-bold">Software Engineer ~ AI Enthusiast ~ Hobby Baker ~ Board Game Enjoyer</p>
 </section>
 
 <section class="page-content" markdown="1">
-## Areas of Focus
+## About Me
 
-- **AI Agents & Orchestration** — Building autonomous and semi-autonomous agents using frameworks like Strands Agents SDK. Designing tool-use patterns, multi-step reasoning flows, and agent architectures.
-- **SDKs & Developer Experience** — Contributing to open-source SDKs that give developers clean, composable interfaces for complex systems.
-- **Cloud & Infrastructure** — Deploying and managing services on AWS and other cloud platforms. Experience with serverless, containers, and CI/CD pipelines.
+I'm a Software Engineer with experience in building backend services, maintaining open-source projects, and giving fun tech talks!
 
-## Skills & Technologies
+I currently help maintain and develop the [Strands Agents GitHub codebase](https://github.com/strands-agents).
 
-- **Languages**: Python, TypeScript, Java
-- **AI/ML**: LLM integration, agent frameworks, prompt engineering, RAG
-- **Cloud**: AWS (Lambda, ECS, Bedrock, CDK), infrastructure as code
-- **Tools**: Git, GitHub Actions, Docker, Terraform
+
+## What I've Done
+Check out [Projects](/projects/) or [Presentations](/presentations/) to see some of my work.
+
 
 ## Get in Touch
 
-Find me on [GitHub](https://github.com/Unshure) or open an issue on any of my repos — always happy to chat.
+Find me on [GitHub](https://github.com/Unshure), [LinkedIn](https://www.linkedin.com/in/nicholasclegg/), or [Email](mailto:nac542@gmail.com)
 
 </section>
+
+<figure class="about-image">
+  <img src="/assets/images/about.jpeg" alt="Nick and Biscuit">
+  <figcaption>Me and my son Biscuit - 2025</figcaption>
+</figure>
