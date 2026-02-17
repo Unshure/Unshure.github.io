@@ -298,8 +298,8 @@ a.presentation-card {
 
 /* === Project Grid === */
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 1.25rem;
   margin: 1.5rem 0;
 }
@@ -328,17 +328,7 @@ a.project-card {
   font-size: 0.9rem;
   color: var(--color-text-muted);
   line-height: 1.6;
-  margin-bottom: 0.75rem;
-}
-.tag {
-  display: inline-block;
-  background: rgba(56, 189, 248, 0.1);
-  color: var(--color-accent);
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.2rem 0.6rem;
-  border-radius: 6px;
-  margin-right: 0.4rem;
+  margin-bottom: 0;
 }
 
 /* === Project Detail === */
@@ -350,9 +340,6 @@ a.project-card {
 }
 .project-detail .back-link:hover {
   color: var(--color-accent);
-}
-.project-tags {
-  margin-bottom: 1.5rem;
 }
 .project-links {
   list-style: none;

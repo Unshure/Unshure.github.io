@@ -10,14 +10,6 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.tags.size > 0 %}
-  <div class="project-tags">
-    {% for tag in page.tags %}
-      <span class="tag">{{ tag }}</span>
-    {% endfor %}
-  </div>
-  {% endif %}
-
   {% if page.links.size > 0 %}
   <ul class="project-links">
     {% for link in page.links %}

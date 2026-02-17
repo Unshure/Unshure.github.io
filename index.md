@@ -23,11 +23,11 @@ Check out [Projects](/projects/) or [Presentations](/presentations/) to see some
 
 ## Get in Touch
 
-Find me on [GitHub](https://github.com/Unshure), [LinkedIn](https://www.linkedin.com/in/nicholasclegg/), or [Email](mailto:nac542@gmail.com)
+Find me on <a href="https://github.com/Unshure" target="_blank">GitHub</a>, <a href="https://www.linkedin.com/in/nicholasclegg" target="_blank">LinkedIn</a>, or <a href="mailto:nac542@gmail.com" target="_blank">Email</a>
 
 </section>
 
 <figure class="about-image">
   <img src="/assets/images/about.jpeg" alt="Nick and Biscuit">
-  <figcaption>Me and my son Biscuit - 2025</figcaption>
+  <figcaption>Me and my son Biscuit</figcaption>
 </figure>
