@@ -18,7 +18,7 @@ I currently help maintain and develop the [Strands Agents GitHub codebase](https
 
 
 ## What I've Done
-Check out [Projects](/projects/) or [Presentations](/presentations/) to see some of my work.
+Check out [Presentations](/presentations/) to see some of my work.
 
 
 ## Get in Touch
